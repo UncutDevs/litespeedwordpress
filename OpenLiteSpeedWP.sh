@@ -1,4 +1,6 @@
 #!/bin/bash
+apt -y update
+apt -y install sudo wget curl
 ### Install OpenLiteSpeed and WordPress
 bash <( curl -sk https://raw.githubusercontent.com/litespeedtech/ls-cloud-image/master/Setup/wpimgsetup.sh )
 ### Regenerate password for Web Admin, Database, setup Welcome Message
