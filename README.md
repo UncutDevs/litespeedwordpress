@@ -6,7 +6,7 @@ Before running this script, ensure you have:
 - A Linux VPS running Ubuntu 20.04 or later.
 - Root or sudo access to the VPS.
 
-- 
+ 
 # Installation
 ```bash
 ```
