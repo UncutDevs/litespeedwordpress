@@ -11,7 +11,7 @@ Before running this script, ensure you have:
 ```bash
 wget -O setup.sh https://raw.githubusercontent.com/UncutDevs/litespeedwordpress/main/OpenLiteSpeedWP.sh
 chmod +x setup.sh
-bash setup.sh
+./setup.sh
 ```
 # Notes
 This script installs OpenLiteSpeed, PHP, MariaDB, and WordPress with default settings. Modify the script as needed for production use.
